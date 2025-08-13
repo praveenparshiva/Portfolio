@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar.jsx";
 import Hero from "./sections/Hero.jsx";
-import ShowcaseSectoin from "./sections/ShowCaseSection.jsx";
+import ShowcaseSectoin from "./sections/ShowcaseSection.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
 import Experience from "./sections/Experience.jsx";
 import Contact from "./sections/Contact.jsx";
