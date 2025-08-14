@@ -435,3 +435,13 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+@media (max-width: 768px) {
+  .card::before {
+    background-attachment: scroll; /* disable fixed background */
+    mask: none; /* disable masking */
+    opacity: 0; /* turn off glow */
+  }
+  .glow {
+    display: none; /* hide glow blur on mobile */
+  }
+}
