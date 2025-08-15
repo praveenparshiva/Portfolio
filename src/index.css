@@ -437,11 +437,11 @@ section {
 }
 @media (max-width: 768px) {
   .card::before {
-    background-attachment: scroll; /* disable fixed background */
-    mask: none; /* disable masking */
-    opacity: 0; /* turn off glow */
+    background-attachment: scroll; 
+    mask: none; 
+    opacity: 0; 
   }
   .glow {
-    display: none; /* hide glow blur on mobile */
+    display: none;
   }
 }
